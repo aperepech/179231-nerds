@@ -1,10 +1,8 @@
-Папка для стилевых файлов.
-
---
-
-Пример структуры файлов:
-
-css/
-| - style.css
-| - normalize.css
-| - [другие *.css файлы]
+.main-header{
+	min-height:93px;
+	}
+	.container{
+	width: 880px;
+	margin: 0 auto;
+	padding: 0 10px;
+	}
