@@ -31,3 +31,17 @@
 	.main-header{
 	margin-bottom: 150px;
 	}
+	.features-item{
+	float:left;
+	width:240px;
+	margin-right:80px;
+	margin-bottom:140px;
+	}
+	.features-item:last-child{
+	margin-right:0;
+	}
+	.about-us-left{
+	float:left;
+	width:620px;
+	margin-right:20px;
+	}
