@@ -1,0 +1,95 @@
+  .container{
+	width:880px
+	margin: 0 auto;
+	padding: 0 10px;
+	
+	}
+	.main-header{
+	min-height:93px;
+
+	}
+	.main-navigation{
+	float: left;
+	width: 780px;
+	height: 100px;
+	outline: 1px solid #000;
+	margin-left:160px;
+
+	}
+	li{
+		display: inline-block;
+		margin: 
+
+	}
+
+	.basket-block{
+	float: right;
+	width: 190px;
+	height: 100px;
+	margin-right: 160px;
+	outline: 1px solid #000;
+	}
+	.clearfix:after {
+	content: "";
+	display:table ;
+	clear:both;
+	}
+
+	.slider {
+	float:left;
+	outline: 1px solid #000;
+	width:550px;
+	margin-left:160px
+    }
+
+    .slider-toogle{
+    float:right;
+    width:400px;
+    outline: 1px solid #000;
+    background: green;
+    }
+	.main-header{
+	margin-bottom: 150px;
+	}
+	.features-item{
+		float:left;
+		outline: 1px solid #000;
+		width:240px;
+		margin-right:80px;
+
+	}
+	.features-item:nth-child(1){
+		margin-left: 160px;
+	}
+	.features-item:nth-child(3){
+		margin-right: 0;
+	}
+	.about-us-left{
+		float:left;
+		outline: 1px solid #000;
+		background: green;
+		margin-left: 160px;
+		width: 820px;
+	}
+	.about-us-right{
+		float:right;
+		width: 240px;
+		min-height: 150px;
+    	outline: 1px solid #000
+    	}
+    .scroll{
+    	float: left;
+    	width: 460px;
+    	outline: 1px solid #000;
+    	margin-left: 160px;
+        }
+    
+	.scroll-right{
+		float:right;
+		outline: 1px solid #000;
+	}
+	.label{
+		display: block;
+		margin-left: 160px;
+		outline: 1px solid #000;
+	}
