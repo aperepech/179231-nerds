@@ -2,31 +2,49 @@
 	width:880px
 	margin: 0 auto;
 	padding: 0 10px;
-	
-	}
+    }
+    header{
+    	width:880px;
+    	height: 330px;
+    	background: red;
+    	margin-bottom: 80px;
+    }
+	.index-logo{
+		float: left;
+		margin-left: 10px;
+		margin-top: 10px;
+		width: 140px;
+		height: 57px;
+     }
 	.main-header{
 	min-height:93px;
+
 
 	}
 	.main-navigation{
 	float: left;
-	width: 780px;
-	height: 100px;
+	width: 400px;
+	height: 80px;
 	outline: 1px solid #000;
-	margin-left:160px;
-
-	}
+	margin-left:180px;
+	
+    }
+    .main-navigation:nth-child(4){
+    	padding-right: 0px;
+    }
 	li{
 		display: inline-block;
-		margin: 
+		padding-left: 1px;
+		padding-top: 30px;
 
 	}
 
 	.basket-block{
 	float: right;
-	width: 190px;
-	height: 100px;
-	margin-right: 160px;
+	width: 80px;
+	height: 80px;
+	margin-right: 10px;
+	
 	outline: 1px solid #000;
 	}
 	.clearfix:after {
@@ -38,18 +56,28 @@
 	.slider {
 	float:left;
 	outline: 1px solid #000;
-	width:550px;
-	margin-left:160px
+	width:380px;
+	height: 250px;
+	margin-left:10px;
+	margin-right:140px;
     }
 
     .slider-toogle{
     float:right;
-    width:400px;
+    width:340px;
+    height: 250px;
     outline: 1px solid #000;
     background: green;
+    margin-right:10px;
     }
 	.main-header{
 	margin-bottom: 150px;
+	}
+
+
+	.main{
+		background: yellow;
+		outline: 1px solid #000;
 	}
 	.features-item{
 		float:left;
