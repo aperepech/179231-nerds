@@ -31,20 +31,21 @@
 	margin-bottom: 80px;
 	color: :#000000;
 	background-color:  #ffffff;
-
-
-
-	}
+    }
 	.main-navigation{
 	float: left;
 	width: 400px;
 	min-height: 130px;
-	
 	margin-left:180px;
 	}
+
 	.main-navigation a{
-		color: black;
+		color: #000000;
 		text-decoration: none;
+		font-family: "Roboto Medium";
+		font-size: 14px;
+		line-height: 30px;
+
     }
     .main-navigation ul{
 		margin:0;
