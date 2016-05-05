@@ -48,16 +48,22 @@
       <h2 class="coast">стоимость:</h2>
         <div class="sorting">
         </div>
-        <div class="price">
-          <form action="#" method="get">
-            <span>от</span><input type="text" name="0">
-            <span>до</span><input type="text" name="15000">
-          </form>
+       
+        <form action="form.php" method="GET">
+          <div class="range-filter">
+          <div class="range-controls">
+          <div class="scale">
+          <div class="bar"></div>
           </div>
-        
-        
-         
-        <div class="what grid">
+          <div class="toggle toggle-min"></div>
+          <div class="toggle toggle-max"></div>
+        </div>
+        <div class="price-controls">
+          <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+          <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+        </div>
+      </div>
+          <div class="what grid">
              <h2>cетка:</h2>
          
             <label>
@@ -112,10 +118,12 @@
       <div class="block-right clearfix">
 
         <div class="sorting">
-          <h3 class="triage">сортировка:</h3>
+          <span class="triage">сортировка:</span>
           <a href="#" class="filter">по цене</a>
           <a href="#" class="filter">по типу</a>
           <a href="#" class="filter">по функционалу</a>
+          <div class="triangle1"></div>
+          <div class="triangle2"></div>
         </div>
 
         <div class="gallery1">
