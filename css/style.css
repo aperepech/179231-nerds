@@ -1,4 +1,4 @@
-ф@font-face {
+@font-face {
   font-weight: normal;
   font-style: normal;
 
@@ -322,10 +322,17 @@ main {
 	width: 600px;
 	margin-bottom: 20px;
 }
+.sorting span {
+	font-size: 12px;
+	line-height: 18px;
+	text-transform: uppercase;
+
+}
 .sorting a {
 	font-size: 12px;
 	line-height: 18px;
 	color:#cccccc;
+	text-transform: uppercase;
 }
 
 .triangle1 {
