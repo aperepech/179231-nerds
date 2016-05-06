@@ -65,6 +65,8 @@ body {
 	margin-top: 30px;
 	width: 140px;
 	min-height: 56px;
+	margin-bottom: 
+	outline: 1px solid red;
 }
 
 .main-header {
@@ -72,6 +74,7 @@ body {
 	margin-bottom: 80px;
 	color: #000000;
 	background-color: #eee;
+	outline: 1px solid red;
 }
 
 .main-navigation {
@@ -79,6 +82,7 @@ body {
 	width: 460px;
 	min-height: 130px;
 	margin-left: 180px;
+	outline: 1px solid red;
 }
 
 .main-navigation a {
@@ -88,6 +92,7 @@ body {
 	font-size: 14px;
 	line-height: 30px;
 	text-transform: uppercase;
+
 }
 
 .main-navigation ul {
@@ -149,8 +154,9 @@ body {
   border: none;
   outline: none;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 2px;
   text-transform: uppercase;
+
 }
 
 .button {
@@ -218,7 +224,7 @@ body {
 
 .about-us-left {
 	float: left;
-	
+	outline: 1px solid red;
 	width: 640px;
 	min-height: 150px;
 	margin-bottom: 150px;
@@ -229,27 +235,46 @@ body {
 	width: 240px;
 	min-height: 150px;
 	margin-bottom: 150px;
+	outline: 1px solid red;
+}
 }
 	
 .scroll-left {
+	
 	float: left;
 	width: 600px;
 	margin-bottom: 70px;
 	padding-left: 35px;
 	border-top: 2px solid black;
-	outline: 1px solid #000;
+	outline: 1px solid green;
 }
 
-.scroll-right {
+
+.scroll-right{
+	display: block;
 	float: right;
-	outline: 1px solid #000;
-	width: 240px;
+	outline: 1px solid green;
+	width: 210px;
 	margin-bottom: 70px;
+	padding-left: 35px;
 }
+.red-line{
+	display: inline-block;
+	min-height: 2px;
+	background-color: #ff6666;
+	width: 25px;
+	
 
+}
+.scroll-right p::before {
+	min-height: 2px;
+	background-color: #ff6666;
+	width: 25px;
+	}
 
 
 .map {
+	position: relative;
 	width: 1200px;
 	margin: 0 auto;
 	min-height: 420px;
@@ -281,23 +306,105 @@ body {
 	}  
 
 	
-
+footer{
+	display: block;
+	position: relative;
+}
 
 .social-network {
 	float: left;
 	outline: 1px solid #000;
 	width: 240px;
+	min-height: 215px;
 }
+    .round1 {
+    
+	display:inline-block;
+	background-color: #cccccc;
+	min-height: 60px;
+	width: 60px;
+	border-radius: 50px;
+	outline: 1px solid #000;
+	margin-right: 30px;
+}
+ .round1::nth-child(3) {
+ 	margin-right: 0;
+ }
+.icon-vk {
+	position: absolute;
+	left: 30px;
+	top: 20px;
+	color: #ffffff;
 
+}
+.icon-facebook {
+	position: absolute;
+	left: 120px;
+	top: 20px;
+	color: #ffffff;
+}
+.icon-twitter {
+	position: absolute;
+	left: 180px;
+	top: 20px;
+}
 .end {
 	float: right;
 	outline: 1px solid #000;
-	width: 620px;
+	width: 640px;
+	min-height: 215px;
+	
+	
+}
+.end span{
+	font-size: 36px;
+	line-height: 36px;
+	padding-left: 80px;
+}
+.end p{
+	font-size: 16px;
+	line-height: 22px;
+	padding-left: 80px;
 }
 
 .adress {
+	position: absolute;
+	left: 160px;
+	bottom: 90px;
 	width: 250px;
 	min-height: 240px;
+	background-color: #ffffff;
+
+}
+.adress span {
+	padding-top: 20px;
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 20px;
+	margin-top: 30px;
+}
+.adress p {
+	padding-left: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #666666;
+
+}
+
+.latter {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  color: white;
+  background-color: #ff6666;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  width: 200px;
+  min-height: 40px;
 }
 
 .welcome {
@@ -336,6 +443,7 @@ main {
 }
 
 .triangle1 {
+	display: inline-block;
 	width: 0;
 	height: 0;
 	border-left: 5px solid transparent;
@@ -343,6 +451,7 @@ main {
 	border-top: 10px solid #00cc66;
 }
   .triangle2 {
+  	display: inline-block;
     width: 0;
 	height: 0;
 	border-left: 5px solid transparent;
