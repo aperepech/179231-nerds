@@ -126,7 +126,6 @@ body {
 	line-height: 30px;
 	text-transform: uppercase;
 }
-
 .slider {
 	float: left;
 	outline: 1px solid #000;
@@ -157,8 +156,6 @@ body {
   text-decoration: none;
   border-radius: 2px;
   text-transform: uppercase;
-
-}
 
 .button {
   display: inline-block;
@@ -314,7 +311,16 @@ body {
 .label a:last-child {
 	margin-right: 0;
 	}  
-
+.show a {
+	display: block;
+	margin-left: 50px;
+	margin-top: 100px;
+	text-decoration:none;
+	font-size:12px;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase;
+	}
 	
 footer{
 	display: block;
@@ -451,6 +457,8 @@ main {
 	color:#cccccc;
 	text-transform: uppercase;
 	margin-right: 40px;
+	text-decoration:none;
+	border-bottom: 1px dashed  #00cc66;
 
 }
 
@@ -528,7 +536,16 @@ main {
 	margin-left: 330px;
 	margin-bottom: 80px;
 }
+.page a {
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase;
+	padding-right: 40px;
 
+
+}
 
 
 
