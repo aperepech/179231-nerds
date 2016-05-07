@@ -137,6 +137,7 @@ body {
 .slider h1 {
 	font-size: 36px;
 	line-height: 36px;
+	margin: 25px 0;
 }
 
 .slider h3 {
@@ -227,28 +228,29 @@ body {
 	outline: 1px solid red;
 	width: 640px;
 	min-height: 150px;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 }
 
 .about-us-right {
 	float: right;
 	width: 240px;
 	min-height: 150px;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 	outline: 1px solid red;
 }
-}
+
 	
 .scroll-left {
-	
 	float: left;
 	width: 600px;
 	margin-bottom: 70px;
 	padding-left: 35px;
 	border-top: 2px solid black;
-	outline: 1px solid green;
+	
 }
-
+.scroll-left p{
+	position: relative;
+}
 
 .scroll-right{
 	display: block;
@@ -258,18 +260,26 @@ body {
 	margin-bottom: 70px;
 	padding-left: 35px;
 }
-.red-line{
-	display: inline-block;
-	min-height: 2px;
-	background-color: #ff6666;
-	width: 25px;
-	
-
+.scroll-right p {
+	position: relative;
 }
-.scroll-right p::before {
+
+.scroll-left p::before {
+	position:absolute;
+	content: '';
 	min-height: 2px;
 	background-color: #ff6666;
 	width: 25px;
+	}
+
+
+.scroll-right p::before {
+	position:absolute;
+	content: '';
+	min-height: 2px;
+	background-color: #ff6666;
+	width: 25px;
+	left:0;
 	}
 
 
@@ -308,50 +318,43 @@ body {
 	
 footer{
 	display: block;
-	position: relative;
+
 }
 
 .social-network {
+	font-size: 0;
 	float: left;
-	outline: 1px solid #000;
-	width: 240px;
+	width: 270px;
 	min-height: 215px;
 }
-    .round1 {
     
-	display:inline-block;
-	background-color: #cccccc;
-	min-height: 60px;
-	width: 60px;
-	border-radius: 50px;
-	outline: 1px solid #000;
-	margin-right: 30px;
-}
- .round1::nth-child(3) {
- 	margin-right: 0;
- }
-.icon-vk {
-	position: absolute;
-	left: 30px;
-	top: 20px;
+    
+	
+
+
+.social-btn{
+	display: inline-block;
+	background: #cccccc;
 	color: #ffffff;
+	font-size: 16px;
+	border-radius: 50%;
+	text-align: center;
+	margin-right: 30px;
+	padding: 20px;
+	
+
+
 
 }
-.icon-facebook {
-	position: absolute;
-	left: 120px;
-	top: 20px;
-	color: #ffffff;
-}
-.icon-twitter {
-	position: absolute;
-	left: 180px;
-	top: 20px;
-}
+.social-btn:nth-child(3) {
+ 	margin-right: 0;
+ 	}
+
+
+
 .end {
 	float: right;
-	outline: 1px solid #000;
-	width: 640px;
+	width: 610px;
 	min-height: 215px;
 	
 	
@@ -372,29 +375,30 @@ footer{
 	left: 160px;
 	bottom: 90px;
 	width: 250px;
-	min-height: 240px;
+	
 	background-color: #ffffff;
+	padding-left: 20px;
+	padding-top: 30px;
+	padding-bottom: 25px;
 
 }
 .adress span {
 	padding-top: 20px;
 	font-size: 16px;
 	line-height: 30px;
-	padding-left: 20px;
 	margin-top: 30px;
 }
 .adress p {
-	padding-left: 20px;
 	font-size: 16px;
 	line-height: 20px;
 	color: #666666;
 
 }
 
-.latter {
+.latter a{
   display: inline-block;
   vertical-align: top;
-  text-align: center;
+  text-align: middle;
   color: white;
   background-color: #ff6666;
   border: none;
@@ -402,10 +406,10 @@ footer{
   text-decoration: none;
   border-radius: 4px;
   text-transform: uppercase;
-  margin-left: 20px;
-  width: 200px;
-  min-height: 40px;
-}
+  width: 160px;
+  min-height: 10px;
+  padding: 15px ;
+  }
 
 .welcome {
 	text-align:center;
@@ -428,11 +432,17 @@ main {
 	display: inline-block;
 	width: 600px;
 	margin-bottom: 20px;
+
 }
+
+
+
+
 .sorting span {
 	font-size: 12px;
 	line-height: 18px;
 	text-transform: uppercase;
+	margin-right: 40px;
 
 }
 .sorting a {
@@ -440,7 +450,11 @@ main {
 	line-height: 18px;
 	color:#cccccc;
 	text-transform: uppercase;
+	margin-right: 40px;
+
 }
+
+
 
 .triangle1 {
 	display: inline-block;
@@ -449,6 +463,8 @@ main {
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
 	border-top: 10px solid #00cc66;
+
+
 }
   .triangle2 {
   	display: inline-block;
@@ -457,9 +473,11 @@ main {
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
 	border-bottom: 10px solid #cccccc;
+	margin-right:0;
            }
 
 .gallery1 {
+	position: relative;
 	float: left;
 	margin-bottom: 80px;
 	width: 240px;
@@ -467,11 +485,44 @@ main {
 }
 
 .gallery2 {
+	position: relative;
 	float: right;
-	margin-bottom: 80px;
+    margin-bottom: 80px;
 	margin-right: 10px;
 	width: 240px;
 }
+.gallery-popap {
+	position: absolute;
+	display: block;
+	width: 200px;
+	height: 200px;
+	outline: 1px solid #000;
+	background-color: #ffffff;
+	top:35px;
+	right: 20px;
+}
+.gallery-popap h3 {
+	padding-left: 60px;
+	padding-top: 38px;
+	font-size: 18px;
+	line-height:18px;
+	text-transform: uppercase;
+	}
+	.gallery-popap p {
+		margin-left: 20px;
+		font-size: 14px;
+		line-height: 18px;
+		color: #333333;
+   }
+   .gallery-popap button {
+   	margin-left: 30px;
+   	background-color: #ff6666;
+   	color:#ffffff;
+   	padding: 10px 40px;
+   	font-size: 14px;
+   	line-height:18px;
+   	border-radius: 2px;
+   }
 
 .page {
 	margin-left: 330px;
