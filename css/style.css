@@ -156,8 +156,9 @@ body {
   text-decoration: none;
   border-radius: 2px;
   text-transform: uppercase;
+}
 
-.button {
+ .button {
   display: inline-block;
   vertical-align: top;
   text-align: center;
@@ -276,7 +277,8 @@ body {
 	min-height: 2px;
 	background-color: #ff6666;
 	width: 25px;
-	left:0;
+	left:-33px;
+	top:9px;
 	}
 
 
@@ -311,6 +313,13 @@ body {
 .label a:last-child {
 	margin-right: 0;
 	}  
+
+  .checkbox{
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 30px;
+  height: 30px;
+	}
 .show a {
 	display: block;
 	margin-left: 50px;
@@ -380,7 +389,7 @@ footer{
 	position: absolute;
 	left: 160px;
 	bottom: 90px;
-	width: 250px;
+	width: 230px;
 	
 	background-color: #ffffff;
 	padding-left: 20px;
@@ -415,6 +424,8 @@ footer{
   width: 160px;
   min-height: 10px;
   padding: 15px ;
+  font-size: 12px;
+
   }
 
 .welcome {
@@ -431,14 +442,15 @@ main {
 	width: 280px;
 	min-height: 1110px;
 	margin-bottom: 80px;
+	margin-right: 40px;
 
 }
 
+
+
 .sorting {
 	display: inline-block;
-	width: 600px;
 	margin-bottom: 20px;
-
 }
 
 
@@ -471,6 +483,7 @@ main {
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
 	border-top: 10px solid #00cc66;
+	margin-left: 90px;
 
 
 }
@@ -496,7 +509,6 @@ main {
 	position: relative;
 	float: right;
     margin-bottom: 80px;
-	margin-right: 10px;
 	width: 240px;
 }
 .gallery-popap {
