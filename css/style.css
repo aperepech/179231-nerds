@@ -443,7 +443,6 @@ main {
 	min-height: 1110px;
 	margin-bottom: 80px;
 	margin-right: 40px;
-
 }
 
 
@@ -471,7 +470,6 @@ main {
 	margin-right: 40px;
 	text-decoration:none;
 	border-bottom: 1px dashed  #00cc66;
-
 }
 
 
@@ -483,7 +481,7 @@ main {
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
 	border-top: 10px solid #00cc66;
-	margin-left: 90px;
+	margin-left: 65px;
 
 
 }
@@ -514,28 +512,30 @@ main {
 .gallery-popap {
 	position: absolute;
 	display: block;
-	width: 200px;
+	width: 140px;
 	height: 200px;
 	outline: 1px solid #000;
 	background-color: #ffffff;
 	top:35px;
 	right: 20px;
+	text-align: center;
+	padding: 0 30px;
 }
 .gallery-popap h3 {
-	padding-left: 60px;
-	padding-top: 38px;
+	
+	padding-top: 20px;
 	font-size: 18px;
 	line-height:18px;
 	text-transform: uppercase;
 	}
 	.gallery-popap p {
-		margin-left: 20px;
+		
 		font-size: 14px;
 		line-height: 18px;
 		color: #333333;
    }
    .gallery-popap button {
-   	margin-left: 30px;
+
    	background-color: #ff6666;
    	color:#ffffff;
    	padding: 10px 40px;
