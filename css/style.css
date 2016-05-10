@@ -170,6 +170,8 @@ body {
   text-decoration: none;
   border-radius: 4px;
   text-transform: uppercase;
+  border:none;
+  outline: none;
 }
  .button-green {
 	background-color: #00cc66;
@@ -268,6 +270,8 @@ body {
 	min-height: 2px;
 	background-color: #ff6666;
 	width: 25px;
+	left:-33px;
+	top:9px;
 	}
 
 
@@ -343,7 +347,11 @@ footer{
 	min-height: 215px;
 }
     
-    
+ .round {
+ 	position: absolute;
+ 	left: 835px;
+ 	top:115px;
+ }
 	
 
 
@@ -421,9 +429,9 @@ footer{
   text-decoration: none;
   border-radius: 4px;
   text-transform: uppercase;
-  width: 160px;
+  
   min-height: 10px;
-  padding: 15px ;
+  padding: 15px 50px;
   font-size: 12px;
 
   }
@@ -542,6 +550,8 @@ main {
    	font-size: 14px;
    	line-height:18px;
    	border-radius: 2px;
+   	border:none;
+   	outline: none;
    }
 
 .page {
