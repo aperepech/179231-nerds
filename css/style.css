@@ -365,7 +365,10 @@ footer{
 	border-radius: 50%;
 	text-align: center;
 	margin-right: 30px;
-	padding: 20px;
+	width: 60px;
+	height: 60px;
+	padding-top:22px;
+	box-sizing: border-box;
 	
 
 
@@ -482,6 +485,7 @@ main {
 }
 .icon-check-on {
 	 color: #cccccc;
+	 font-size: 20px;
 }
 .icon-check-off {
 	color: #cccccc;
@@ -542,7 +546,7 @@ main {
 	margin-right: 80px;
 }
 
-.gallery2 {
+.gallery2  {
 	position: relative;
 	float: right;
     margin-bottom: 80px;
@@ -550,7 +554,7 @@ main {
 }
 .gallery-popap {
 	position: absolute;
-	display: block;
+	display: none;
 	width: 140px;
 	height: 200px;
 	outline: 1px solid #000;
@@ -694,4 +698,17 @@ main {
 .upper{
 	margin-left: 10px;
 	padding: 5px 0;
+}
+input[type="radio"] {
+	display: none;
+
+}
+input[type="checkbox"] {
+	display: none;
+}
+.gallery1 :hover .gallery-popap {
+	display: block;
+}
+.gallery2 :hover .gallery-popap {
+	display: block;
 }
