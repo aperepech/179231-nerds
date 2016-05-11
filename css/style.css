@@ -297,11 +297,12 @@ body {
 
 .label {
 	display:block;
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
 	min-height: 170px;
 	margin-bottom:85px;
 	width: 880px;
+
 
 }
 .label a {
@@ -319,6 +320,7 @@ body {
 	}  
 
   .checkbox{
+  	display: none;
   vertical-align: top;
   margin: 0 3px 0 0;
   width: 30px;
@@ -452,9 +454,34 @@ main {
 	margin-bottom: 80px;
 	margin-right: 40px;
 }
-
-
-
+.coast {
+	font-size: 18px;
+	line-height:30px;
+	text-transform: uppercase;
+}
+.what-grid h2{
+	font-size: 18px;
+	line-height:30px;
+	text-transform: uppercase;
+}
+.distinction h2 {
+	font-size: 18px;
+	line-height:30px;
+	text-transform: uppercase;
+}
+.icon-circle {
+ color: #cccccc;
+ width: 100px;
+}
+.icon-circle-dot {
+	 color: #cccccc;
+}
+.icon-check-on {
+	 color: #cccccc;
+}
+.icon-check-off {
+	color: #cccccc;
+}
 .sorting {
 	display: inline-block;
 	margin-bottom: 20px;
@@ -646,4 +673,18 @@ main {
   border-radius: 5px;
   outline: none;
   background: #f1f1f1;
+}
+
+
+.upper-unit {
+	background-color: red;
+	height: 30px;
+}
+.upper-unit1 {
+ background-color: #666666;
+ height: 30px;
+}
+.upper-unit1 .btn-1{
+	margin-left: 10px;
+
 }
