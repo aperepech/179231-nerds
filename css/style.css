@@ -706,9 +706,19 @@ input[type="radio"] {
 input[type="checkbox"] {
 	display: none;
 }
-.gallery1 :hover .gallery-popap {
+.gallery1:hover .gallery-popap {
 	display: block;
 }
-.gallery2 :hover .gallery-popap {
+.gallery2:hover .gallery-popap {
+	display: block;
+}
+.upper1 {
+	display: inline-block;
+    width: 10px;
+	height: 10px;
+	background-color: #ffffff;
+	border-radius: 50%;
+}
+.upper-unit:hover .upper-unit1 {
 	display: block;
 }
