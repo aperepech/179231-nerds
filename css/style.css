@@ -468,15 +468,17 @@ main {
 
 .block-left {
 	float: left;
-	width: 300px;
+	width: 320px;
 	min-height: 1110px;
 	margin-bottom: 80px;
 	margin-right: 0;
 }
 .coast {
 	font-size: 18px;
-	line-height:30px;
+	line-height:18px;
 	text-transform: uppercase;
+	margin: 0;
+	margin-bottom: 22px;
 }
 .what-grid h2{
 	font-size: 18px;
@@ -519,7 +521,7 @@ main {
 }
 .sorting {
 	display: inline-block;
-	margin-bottom: 20px;
+	margin-bottom: -10px;
 }
 
 
@@ -586,10 +588,11 @@ main {
 	height: 200px;
 	outline: 1px solid #000;
 	background-color: #ffffff;
-	top:50px;
+	top:80px;
 	right: 20px;
 	text-align: center;
 	padding: 0 30px;
+	border-radius: 2px;
 }
 .gallery-popap h3 {
 	
@@ -699,7 +702,7 @@ main {
 .price-controls input {
   font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 16px;
-  width: 60px;
+  width: 80px;
   margin-left: 10px;
   padding: 8px 10px;
   text-align: center;
@@ -714,16 +717,9 @@ main {
 .upper-unit {
 	background-color: #eee;
 	height: 30px;
+	border-radius: 2px;
 }
-.upper-unit1 {
- display: none;
- position: absolute;
- width: 240px
- bottom: 30px;
- background-color: #666666;
- height: 30px;
- 
-}
+
 
 
 
@@ -751,11 +747,13 @@ input[type="checkbox"] {
 	background-color: #ffffff;
 	border-radius: 50%;
 }
-.gallery1:hover .upper-unit1 {
+.gallery1:hover .upper-unit {
 	display: block;
+	background-color: #666666;
 }
-.gallery2:hover .upper-unit1 {
+.gallery2:hover .upper-unit {
 	display: block;
+	background-color: #666666;
 }
 .white-line1 {
 	display: block;
@@ -775,4 +773,8 @@ input[type="checkbox"] {
 	width: 65px;
 	background-color:  #eee;
 	
+}
+.block-right {
+	float: right;
+	width: 560px;
 }
