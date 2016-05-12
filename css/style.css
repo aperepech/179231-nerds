@@ -192,7 +192,7 @@ body {
 
 .features {
 	padding-bottom: 80px;
-	outline: 1px solid red;
+	
 	
 }
 
@@ -201,7 +201,7 @@ body {
 	width: 240px;
 	min-height: 300px;
 	margin-right: 80px;
-	outline: 1px solid red;
+	
 }
 
 .features-item h2 {
@@ -225,20 +225,26 @@ body {
 
 .about-us-left {
 	float: left;
-	outline: 1px solid red;
+	
 	width: 640px;
 	min-height: 150px;
 	margin-bottom: 50px;
 }
 
 .about-us-right {
+	position: relative;
 	float: right;
 	width: 240px;
 	min-height: 150px;
 	margin-bottom: 50px;
-	outline: 1px solid red;
+	
 }
-
+.about-us-right span {
+	display: block;
+	
+	margin-left: 48px;
+	margin-top: 20px;
+}
 	
 .scroll-left {
 	float: left;
@@ -319,17 +325,27 @@ body {
 	margin-right: 0;
 	}  
 
-  .checkbox{
+ .checkbox{
 
-  vertical-align: top;
-  margin: 0 3px 0 0;
-  width: 30px;
-  height: 30px;
+    vertical-align: top;
+    margin: 0 3px 0 0;
+    width: 30px;
+    height: 30px;
+	}
+.show {
+    width: 160px;
+    min-height: 40px;
+    background-color: #eee;
+    border-radius: 2px;
+    margin-top: 60px;
+
+
 	}
 .show a {
 	display: block;
-	margin-left: 50px;
-	margin-top: 100px;
+	
+	box-sizing: border-box;
+	padding: 14px 50px;
 	text-decoration:none;
 	font-size:12px;
 	line-height: 18px;
@@ -452,10 +468,10 @@ main {
 
 .block-left {
 	float: left;
-	width: 280px;
+	width: 300px;
 	min-height: 1110px;
 	margin-bottom: 80px;
-	margin-right: 40px;
+	margin-right: 0;
 }
 .coast {
 	font-size: 18px;
@@ -468,7 +484,15 @@ main {
 	text-transform: uppercase;
 }
 .radio {
+	color:#333333;
+	font-size: 16px;
+	line-height:20px;
 
+}
+.enumeration {
+	color:#333333;
+	font-size: 16px;
+	line-height:20px;
 }
 .distinction h2 {
 	font-size: 18px;
@@ -477,10 +501,11 @@ main {
 }
 .icon-circle {
  color: #cccccc;
- width: 100px;
+ font-size: 20px;
 }
 .icon-circle-dot {
 	 color: #cccccc;
+	 font-size: 20px;
 
 }
 .icon-check-on {
@@ -489,6 +514,8 @@ main {
 }
 .icon-check-off {
 	color: #cccccc;
+	font-size: 20px;
+
 }
 .sorting {
 	display: inline-block;
@@ -689,8 +716,13 @@ main {
 	height: 30px;
 }
 .upper-unit1 {
+ display: none;
+ position: absolute;
+ width: 240px
+ bottom: 30px;
  background-color: #666666;
  height: 30px;
+ 
 }
 
 
@@ -719,6 +751,28 @@ input[type="checkbox"] {
 	background-color: #ffffff;
 	border-radius: 50%;
 }
-.upper-unit:hover .upper-unit1 {
+.gallery1:hover .upper-unit1 {
 	display: block;
+}
+.gallery2:hover .upper-unit1 {
+	display: block;
+}
+.white-line1 {
+	display: block;
+	position: absolute;
+	right: 210px;
+    bottom:15px;
+	width: 65px;
+	height: 2px;
+	background-color: #eee;
+}
+.white-line2 {
+	display: block;
+	position: absolute;
+	left: 150px;
+	bottom:15px;
+	height: 2px;
+	width: 65px;
+	background-color:  #eee;
+	
 }
