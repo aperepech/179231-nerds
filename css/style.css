@@ -736,13 +736,22 @@ input[type="checkbox"] {
 	display: none;
 }
 
-.radio-label:before{
+.radio-label{
 	position: relative;
 	display:inline-block;
 	width: 100%;
 	padding-bottom: 15px;
 	padding-left: 37px;
 	vertical-align: top;
+}
+.radio-label:before{
+    content: "" ;
+    position: absolute;
+    top:-3px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background:url(../img/.icon-circle-dot.png) no-repeat;
 }
 .gallery1:hover .gallery-popap {
 	display: block;
