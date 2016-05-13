@@ -778,3 +778,45 @@ input[type="checkbox"] {
 	float: right;
 	width: 560px;
 }
+.page .btn1 {
+	display: inline-block;
+	background-color: #ffffff;
+	width: 38px;
+	height: 38px;
+	text-align: center;
+	padding: 14px 0;
+	box-sizing: border-box;
+	border:1px solid #eee;
+	
+
+}
+
+.page .btn2 {
+	display: inline-block;
+	background-color: #eee;
+	width: 38px;
+	height: 38px;
+	text-align: center;
+	padding: 15px 0;
+	box-sizing: border-box;
+}
+
+.page .btn3 {
+	display: inline-block;
+	background-color: #eee;
+	width: 38px;
+	height: 38px;
+	text-align: center;
+	padding: 15px 0;
+	box-sizing: border-box;
+}
+
+.page .btn {
+	display: inline-block;
+	background-color: #eee;
+	
+	height: 38px;
+	text-align: center;
+	padding: 15px 32px;
+	box-sizing: border-box;
+}
