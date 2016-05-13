@@ -735,6 +735,15 @@ input[type="radio"] {
 input[type="checkbox"] {
 	display: none;
 }
+
+.radio-label:before{
+	position: relative;
+	display:inline-block;
+	width: 100%;
+	padding-bottom: 15px;
+	padding-left: 37px;
+	vertical-align: top;
+}
 .gallery1:hover .gallery-popap {
 	display: block;
 }
@@ -821,3 +830,4 @@ input[type="checkbox"] {
 	padding: 15px 32px;
 	box-sizing: border-box;
 }
+
