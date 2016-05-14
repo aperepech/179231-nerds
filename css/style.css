@@ -753,7 +753,25 @@ input[type="checkbox"] {
     height: 25px;
     background:url(../img/.icon-circle.png) no-repeat;
 }
-input [type="radio"]
+        
+ .checkbox-label {
+ 	position: relative;
+ 	display: inline-block;
+ 	padding-left: 37px;
+ 	padding-bottom: 15px;
+ 	width: 100%;
+ }  
+ .checkbox-label:before{
+ 	content: "" ;
+    position: absolute;
+    top:-3px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background:url(../img/.icon-check-off.png) no-repeat;
+
+ }
+
 .gallery1:hover .gallery-popap {
 	display: block;
 }
