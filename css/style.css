@@ -130,7 +130,10 @@ body {
 	text-transform: uppercase;
 }
 
-
+.features {
+	
+	
+}
 
 
 
@@ -138,17 +141,18 @@ body {
   display: inline-block;
   vertical-align: top;
   text-align: center;
-  padding: 11px 38px;
+  padding: 10px 38px;
   color: #ffffff;
   background-color: #ff6666;
-  border: none;
-  outline: none;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 2px;
   text-transform: uppercase;
   border:none;
   outline: none;
-  color:black;
+  line-height: 18px;
+  font-size: 12px;
+  margin-top: 8px;
+  
 }
  .button-green {
 	background-color: #00cc66;
@@ -157,16 +161,6 @@ body {
 .button-yellow {
 	background-color: #ffcc33;
 }
-
-
-
-
-.features {
-	padding-bottom: ;
-	
-	
-}
-
 .features-item {
 	float: left;
 	width: 240px;
@@ -176,9 +170,11 @@ body {
 }
 
 .features-item h2 {
+	display: block;
 	font-size: 18px;
 	line-height: 30px;
 	text-transform: uppercase;
+	padding-top: 8px;
 }
 .features-item p {
 	font-size: 15px;
@@ -191,48 +187,70 @@ body {
 }
 
 .about-us {
-	margin-top: 70px;
+	margin-top: 78px;
+	
 }
-
+.white-line{
+	border-top: 2px solid  #cccccc;
+	margin-bottom: 70px;
+}
 .about-us-left {
 	float: left;
-	
-	width: 640px;
+	width: 600px;
 	min-height: 150px;
 	margin-bottom: 50px;
+
+}
+.about-us-left b {
+	font-size: 36px;
+	line-height: 36px;
+	
+}
+.about-us-left p {
+	font-size: 16px; 
+	line-height: 22px;
+	color: #333333;
 }
 
 .about-us-right {
 	position: relative;
 	float: right;
-	width: 240px;
-	min-height: 150px;
-	margin-bottom: 50px;
-	
-}
+	width: 280px;
+	margin-top: -40px;
+} 
+
 .about-us-right span {
 	display: block;
-	
-	margin-left: 48px;
-	margin-top: 20px;
+	margin-right: 0;
+	margin-top: 32px;
 }
 	
 .scroll-left {
 	float: left;
 	width: 600px;
 	margin-bottom: 70px;
-	padding-left: 35px;
-	border-top: 2px solid black;
 	
+	margin-top:-20px; 
+} 
+
+.scroll-left b {
+	display: block;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
 }
-.scroll-left p{
+
+.scroll-left p {
+	display: block;
 	position: relative;
+	padding-left: 35px;
+	padding-top: 8px;
 }
 
 .scroll-right{
 	display: block;
 	float: right;
-	outline: 1px solid green;
+	
 	width: 210px;
 	margin-bottom: 70px;
 	padding-left: 35px;
@@ -274,8 +292,8 @@ body {
 
 .label {
 	display:block;
-	border-top: 1px solid #cccccc;
-	border-bottom: 1px solid #cccccc;
+	border-top: 2px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
 	min-height: 170px;
 	margin-bottom:85px;
 	width: 880px;
@@ -435,7 +453,7 @@ footer{
 }
 
 main {
-	outline: 1px solid #000;
+	
 	width: 880px;
 }
 
@@ -558,7 +576,7 @@ main {
 	display: none;
 	width: 140px;
 	height: 200px;
-	outline: 1px solid #000;
+	
 	background-color: #ffffff;
 	top:80px;
 	right: 20px;
