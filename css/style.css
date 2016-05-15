@@ -228,7 +228,7 @@ body {
 .scroll-left {
 	float: left;
 	width: 600px;
-	margin-bottom: 70px;
+	margin-bottom: 0;
 	
 	margin-top:-20px; 
 } 
@@ -238,6 +238,7 @@ body {
     font-size: 16px;
     line-height: 22px;
     text-transform: uppercase;
+    color: #333333;
 }
 
 .scroll-left p {
@@ -245,18 +246,34 @@ body {
 	position: relative;
 	padding-left: 35px;
 	padding-top: 8px;
+	color:#333333;
 }
 
-.scroll-right{
+.scroll-right {
 	display: block;
 	float: right;
-	
 	width: 210px;
-	margin-bottom: 70px;
-	padding-left: 35px;
+	margin-bottom: 53px;
+	margin-top: -20px;
 }
+
+.scroll-right b {
+	display: block;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color:#333333;
+    margin-left: -32px;
+}
+
 .scroll-right p {
 	position: relative;
+	display: block;
+	font-size: 16px;
+	line-height: 22px;
+	padding-top: 7px;
+	padding-left: 5px;
+	color:#333333;
 }
 
 .scroll-left p::before {
@@ -265,9 +282,9 @@ body {
 	min-height: 2px;
 	background-color: #ff6666;
 	width: 25px;
-	left:-33px;
-	top:9px;
-	}
+	left:-2px;
+	top: 18px;
+}
 
 
 .scroll-right p::before {
@@ -277,7 +294,7 @@ body {
 	background-color: #ff6666;
 	width: 25px;
 	left:-33px;
-	top:9px;
+	top: 14px;
 	}
 
 
@@ -288,30 +305,33 @@ body {
 	min-height: 420px;
 	background: url(../img/map.png) no-repeat;
 	margin-bottom: 70px;
-}
-
+    }
+  
 .label {
 	display:block;
 	border-top: 2px solid #cccccc;
 	border-bottom: 2px solid #cccccc;
-	min-height: 170px;
+	height: 170px;
 	margin-bottom:85px;
 	width: 880px;
+
 
 
 }
 .label a {
 	display: inline-block;
-    margin-right: 130px;
+	margin-left: 10px;
+    margin-right: 110px;
     vertical-align: middle;
-    padding-top: 55px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 45px;
 
 
     }
 
 .label a:last-child {
 	margin-right: 0;
+	margin-left: 0;
 	}  
 
  .checkbox{
@@ -395,36 +415,38 @@ footer{
 .end span{
 	font-size: 36px;
 	line-height: 36px;
-	padding-left: 80px;
+	padding-left: 45px;
 }
 .end p{
 	font-size: 16px;
 	line-height: 22px;
-	padding-left: 80px;
+	padding-left: 45px;
 }
 
 .adress {
 	position: absolute;
-	left: 160px;
-	bottom: 90px;
+	left: 158px;
+	bottom: 95px;
 	width: 230px;
-	
+	height: 192px;
 	background-color: #ffffff;
 	padding-left: 20px;
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-bottom: 25px;
-
+	
 }
 .adress span {
-	padding-top: 20px;
+	display: block;
 	font-size: 16px;
 	line-height: 30px;
-	margin-top: 30px;
+	color:#000000;
 }
 .adress p {
+	display: block;
 	font-size: 16px;
 	line-height: 20px;
 	color: #666666;
+	margin-bottom:25px; 
 
 }
 
@@ -437,12 +459,12 @@ footer{
   border: none;
   outline: none;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 2px;
   text-transform: uppercase;
-  
   min-height: 10px;
-  padding: 15px 50px;
+  padding: 12px 55px;
   font-size: 12px;
+  box-sizing: border-box;
 
   }
 
@@ -937,12 +959,12 @@ input[type="checkbox"] {
     background-position:100% 10px;
 }
 .slide:nth-child(2){
-    background-image:url('../img/slider-bg-2.jpg');
+    background-image:url('../img/Layer 40.png');
     background-repeat:no-repeat;
     background-position:100% 10px;
 }
 .slide:nth-child(3){
-    background-image:url('../img/slider-bg-3.jpg');
+    background-image:url('../img/Layer 37.png');
     background-repeat:no-repeat;
     background-position:100% 0;
 }
