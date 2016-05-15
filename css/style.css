@@ -51,7 +51,7 @@ body {
 	width: 880px;
 	margin: 0 auto;
 	padding: 0 10px;
-	outline: 1px solid red;
+	
 }
 
 .clearfix:after {
@@ -62,19 +62,20 @@ body {
 
 .index-logo {
 	float: left;
-	margin-top: 30px;
+	margin-top: 24px;
 	width: 140px;
 	min-height: 56px;
 	margin-bottom: 
-	outline: 1px solid red;
+	
 }
 
 .main-header {
-	min-height: 435px;
-	margin-bottom: 80px;
+	height: 435px;
+	margin-bottom: 78px;
 	color: #000000;
 	background-color: #eee;
-	outline: 1px solid red;
+	
+	
 }
 
 .main-navigation {
@@ -82,7 +83,9 @@ body {
 	width: 460px;
 	min-height: 130px;
 	margin-left: 180px;
-	outline: 1px solid red;
+
+
+	
 }
 
 .main-navigation a {
@@ -126,37 +129,10 @@ body {
 	line-height: 30px;
 	text-transform: uppercase;
 }
-.slider {
-	float: left;
-	outline: 1px solid #000;
-	width:380px;
-	min-height: 250px;
-	margin-right: 140px;
-}
-.slider h1 {
-	font-size: 36px;
-	line-height: 36px;
-	margin: 25px 0;
-}
 
-.slider h3 {
-	font-size: 16px;
-	line-height: 22px;
-}
 
-.slider .button {
-  display: inline-block;
-  vertical-align: top;
-  text-align: center;
-  padding: 4px 70px;
-  color: #ffffff;
-  background-color: #ff6666;
-  border: none;
-  outline: none;
-  text-decoration: none;
-  border-radius: 2px;
-  text-transform: uppercase;
-}
+
+
 
  .button {
   display: inline-block;
@@ -172,6 +148,7 @@ body {
   text-transform: uppercase;
   border:none;
   outline: none;
+  color:black;
 }
  .button-green {
 	background-color: #00cc66;
@@ -181,17 +158,11 @@ body {
 	background-color: #ffcc33;
 }
 
-}
-.slider-toogle {
-	float: right;
-	width:340px;
-	min-height: 250px;
-	
-	margin-right:10px;
-}
+
+
 
 .features {
-	padding-bottom: 80px;
+	padding-bottom: ;
 	
 	
 }
@@ -753,7 +724,11 @@ input[type="checkbox"] {
     height: 25px;
     background:url(../img/.icon-circle.png) no-repeat;
 }
-        
+#grid1:checked ~ label[for="grid1"]:before,
+#grid2:checked ~ label[for="grid2"]:before,
+#grid3:checked ~ label[for="grid3"]:before {
+ background: url(../img/.icon-circle-dot.png) no-repeat;
+}    
  .checkbox-label {
  	position: relative;
  	display: inline-block;
@@ -862,10 +837,17 @@ input[type="checkbox"] {
 
 
 .slider{
+	float: left;
     position:relative;
     width:880px;
     height:310px;
-    margin:0 auto;
+    margin:-57px auto;
+    
+   
+}
+.slider input[type=radio] {
+    position:absolute;
+    opacity:0;
 }
 .slider-controls{
     position:absolute;
@@ -877,7 +859,7 @@ input[type="checkbox"] {
     text-align:center;
     z-index:1000;
 }
-.slider-controls i{
+.slider-controls label{
     display:inline-block;
     width:4px;
     height:4px;
@@ -888,7 +870,9 @@ input[type="checkbox"] {
     border-radius:50%;
     cursor:pointer;
 }
-.slider-controls .active{
+#btn-1:checked ~ .slider-controls label[for="btn-1"],
+#btn-2:checked ~ .slider-controls label[for="btn-2"],
+#btn-3:checked ~ .slider-controls label[for="btn-3"] { 
     background:#c1c1c1;
 }
 .slide{
@@ -910,11 +894,17 @@ input[type="checkbox"] {
     font-weight:bold;
     color:black;
 }
+.slide p {
+	display: block;
+	padding-top: 2px;
+	
+	
+}
 .slide .btn{
     display:block;
     width:240px;
     padding:10px 0;
-    margin-top:25px;
+    margin-top:35px;
     font-size:12px;
     color:white;
     text-transform:uppercase;
@@ -924,23 +914,29 @@ input[type="checkbox"] {
     border-radius:3px;
 }
 .slide:nth-child(1){
-    background-image:url('img/slider-bg.jpg');
+    background-image:url('../img/slider-bg.png');
     background-repeat:no-repeat;
     background-position:100% 10px;
+}
+.slide:nth-child(2){
+    background-image:url('../img/slider-bg-2.jpg');
+    background-repeat:no-repeat;
+    background-position:100% 10px;
+}
+.slide:nth-child(3){
+    background-image:url('../img/slider-bg-3.jpg');
+    background-repeat:no-repeat;
+    background-position:100% 0;
 }
 .slide{
     display:none;
 }
-.slide:nth-child(3){
-    display:block;
+#btn-1:checked ~ .slides .slide:nth-child(1) { 
+    display: block;
 }
-.slide:nth-child(2){
-    background-image:url('img/slider-bg-2.jpg');
-    background-repeat:no-repeat;
-    background-position:100% 10px;
+#btn-2:checked ~ .slides .slide:nth-child(2) { 
+    display: block;
 }
-.slide:nth-child(3){
-    background-image:url('img/slider-bg-3.jpg');
-    background-repeat:no-repeat;
-    background-position:100% 0;
+#btn-3:checked ~ .slides .slide:nth-child(3) { 
+    display: block;
 }
