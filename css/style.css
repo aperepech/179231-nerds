@@ -68,15 +68,23 @@ body {
 	margin-bottom: 
 	
 }
-
 .main-header {
-	height: 435px;
+	min-height:435px;
 	margin-bottom: 78px;
 	color: #000000;
 	background-color: #eee;
-	
-	
+	outline: 2px solid red;
 }
+
+.main-header2 {
+	min-height: 330px;
+	margin-bottom: 78px;
+	color: #000000;
+	background-color: #eee;
+	outline: 2px solid red;
+
+}
+
 
 .main-navigation {
 	float: left;
@@ -469,9 +477,12 @@ footer{
   }
 
 .welcome {
+	display: block;
 	text-align:center;
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 40px;
+	padding-left: 0;
+
 }
 
 main {
@@ -485,6 +496,7 @@ main {
 	min-height: 1110px;
 	margin-bottom: 80px;
 	margin-right: 0;
+	margin-top: -5px;
 }
 .coast {
 	font-size: 18px;
@@ -493,10 +505,16 @@ main {
 	margin: 0;
 	margin-bottom: 22px;
 }
+
+.what-grid {
+	margin-top: 48px;
+}
 .what-grid h2{
+	display: block;
 	font-size: 18px;
 	line-height:30px;
 	text-transform: uppercase;
+	margin-top: 20px;
 }
 .radio {
 	color:#333333;
@@ -508,6 +526,11 @@ main {
 	font-size: 16px;
 	line-height:20px;
 }
+
+.distinction {
+	margin-top: 40px;
+}
+
 .distinction h2 {
 	font-size: 18px;
 	line-height:30px;
@@ -582,7 +605,7 @@ main {
 .gallery1  {
 	position: relative;
 	float: left;
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 	width: 240px;
 	margin-right: 80px;
 }
@@ -590,7 +613,7 @@ main {
 .gallery2  {
 	position: relative;
 	float: right;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 	width: 240px;
 }
 .gallery-popap {
@@ -632,8 +655,11 @@ main {
    }
 
 .page {
-	margin-left: 330px;
+	display: inline-block;
+	margin-left: 320px;
 	margin-bottom: 80px;
+	margin-top: -100px;
+	
 }
 .page a {
 	text-decoration: none;
@@ -642,8 +668,6 @@ main {
 	color: #000000;
 	text-transform: uppercase;
 	padding-right: 40px;
-
-
 }
 
 
@@ -705,6 +729,7 @@ main {
   font-size: 16px;
   display: inline-block;
   width: 50%;
+   text-transform: uppercase;
 }
 
 .max-price {
@@ -723,6 +748,7 @@ main {
   border-radius: 5px;
   outline: none;
   background: #f1f1f1;
+
 }
 
 
@@ -786,7 +812,13 @@ input[type="checkbox"] {
     background:url(../img/.icon-check-off.png) no-repeat;
 
  }
-
+#checkbox1:checked ~ label[for="checkbox1"]:before,
+#checkbox2:checked ~ label[for="checkbox2"]:before,
+#checkbox3:checked ~ label[for="checkbox3"]:before,
+#checkbox4:checked ~ label[for="checkbox4"]:before,
+#checkbox5:checked ~ label[for="checkbox5"]:before {
+ background: url(../img/.icon-check-on.png) no-repeat;
+}    
 .gallery1:hover .gallery-popap {
 	display: block;
 }
@@ -830,6 +862,7 @@ input[type="checkbox"] {
 .block-right {
 	float: right;
 	width: 560px;
+	margin-top: -5px;
 }
 .page .btn1 {
 	display: inline-block;
