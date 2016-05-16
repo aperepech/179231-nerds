@@ -286,7 +286,7 @@ body {
 	display: block;
 	float: right;
 	width: 210px;
-	margin-bottom: 53px;
+	margin-bottom: 47px;
 	margin-top: -20px;
 }
 
@@ -336,6 +336,7 @@ body {
 	min-height: 420px;
 	background: url(../img/map.png) no-repeat;
 	margin-bottom: 70px;
+
 }
   
 .label {
@@ -345,6 +346,7 @@ body {
 	height: 170px;
 	margin-bottom:85px;
 	width: 880px;
+
 }
 
 .label a {
@@ -354,6 +356,7 @@ body {
     vertical-align: middle;
     padding-top: 50px;
     padding-bottom: 45px;
+    opacity: 0.3
 }
 
 .label a:last-child {
@@ -362,7 +365,7 @@ body {
 }
 
 .label a:hover{
-	opacity: 0.3;
+	opacity: 1;
 }
 
 .checkbox{
@@ -448,9 +451,11 @@ footer {
 }
 
 .end p{
+	display: block;
 	font-size: 16px;
 	line-height: 22px;
 	padding-left: 45px;
+	margin-top: 10px;
 }
 
 .adress {
@@ -865,6 +870,7 @@ input[type="checkbox"] {
 	padding-bottom: 15px;
 	padding-left: 37px;
 	vertical-align: top;
+	color: #283136;
 }
 .radio-label:before {
     content: "" ;
@@ -894,6 +900,7 @@ input[type="checkbox"] {
  	padding-left: 37px;
  	padding-bottom: 15px;
  	width: 100%;
+ 	color: #283136;
 }  
 .checkbox-label:before{
  	content: "" ;
@@ -984,6 +991,7 @@ input[type="checkbox"] {
 	box-sizing: border-box;
 	border:1px solid #eee;
 	border-radius: 2px;
+	margin-right: 5px;
 }
 
 .page .btn2 {
@@ -995,6 +1003,7 @@ input[type="checkbox"] {
 	padding: 15px 0;
 	box-sizing: border-box;
 	border-radius: 2px;
+	margin-right: 5px;
 }
 .page .btn2:hover {
 	background-color: #cccccc;
@@ -1014,6 +1023,7 @@ input[type="checkbox"] {
 	padding: 15px 0;
 	box-sizing: border-box;
 	border-radius: 2px;
+	margin-right: 5px;
 }
 
 .page .btn3:hover {
