@@ -610,9 +610,30 @@ main {
 	text-decoration:none;
 	border-bottom: 1px dashed  #00cc66;
 }
-
-
-
+.filter1:hover { 
+	color: #000000;
+	border-bottom: 1px solid  #00cc66;
+ }
+.filter1:active {
+	color: #000000;
+	border-bottom:none;
+}
+.filter2:hover { 
+	color: #000000;
+	border-bottom: 1px solid  #00cc66;
+ }
+.filter2:active {
+	color: #000000;
+	border-bottom:none;
+}
+.filter3:hover { 
+	color: #000000;
+	border-bottom: 1px solid  #00cc66;
+ }
+.filter3:active {
+	color: #000000;
+	border-bottom:none;
+}
 .triangle1 {
 	display: inline-block;
 	width: 0;
@@ -621,9 +642,26 @@ main {
 	border-right: 5px solid transparent;
 	border-top: 10px solid #00cc66;
 	margin-left: 65px;
-
-
 }
+.triangle1:hover{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid #cccccc;
+	margin-left: 65px;
+}
+.triangle1:active{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid #000000;
+	margin-left: 65px;
+}
+
   .triangle2 {
   	display: inline-block;
     width: 0;
@@ -632,9 +670,18 @@ main {
 	border-right: 5px solid transparent;
 	border-bottom: 10px solid #cccccc;
 	margin-right:0;
-           }
+}
+ .triangle2:active {
+	display: inline-block;
+    width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #000000;
+	margin-right:0;
+}
 
-.gallery1  {
+.gallery1 {
 	position: relative;
 	float: left;
 	margin-bottom: 50px;
@@ -669,14 +716,13 @@ main {
 	text-transform: uppercase;
 	}
 	.gallery-popap p {
-		
-		font-size: 14px;
-		line-height: 18px;
-		color: #333333;
+	font-size: 14px;
+	line-height: 18px;
+	color: #333333;
    }
-   .gallery-popap button {
 
-   	background-color: #ff6666;
+   .gallery-popap button {
+    background-color: #ff6666;
    	color:#ffffff;
    	padding: 10px 40px;
    	font-size: 14px;
@@ -684,6 +730,12 @@ main {
    	border-radius: 2px;
    	border:none;
    	outline: none;
+   }
+   .gallery-popap button:hover {
+   	background-color: #ff3333;
+   }
+   .gallery-popap button:active {
+   	background-color: #993333;
    }
 
 .page {
