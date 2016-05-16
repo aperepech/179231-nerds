@@ -361,8 +361,8 @@ body {
 	margin-left: 0;
 }
 
-.label a:hover {
-	 img src: url(../img/gluknanko.png) no-repeat;
+.label a:hover{
+	opacity: 0.3;
 }
 
 .checkbox{
@@ -950,21 +950,22 @@ input[type="checkbox"] {
 .white-line1 {
 	display: block;
 	position: absolute;
-	right: 210px;
-    bottom:15px;
+	right: 180px;
+    bottom:8px;
 	width: 65px;
 	height: 2px;
 	background-color: #eee;
+
 }
 
 .white-line2 {
 	display: block;
 	position: absolute;
-	left: 150px;
-	bottom:15px;
+	left: 210px;
+	bottom:8px;
 	height: 2px;
 	width: 65px;
-	background-color:  #eee;
+	background-color: #eee;
 }
 
 .block-right {
@@ -1156,4 +1157,9 @@ input[type="checkbox"] {
 
 #btn-3:checked ~ .slides .slide:nth-child(3) { 
     display: block;
+}
+.about-us-logan {
+	text-align: center;
+	margin-top: 25px;
+	margin-left: 35px;
 }
